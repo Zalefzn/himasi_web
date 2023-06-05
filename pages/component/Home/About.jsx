@@ -32,7 +32,7 @@ function About() {
         >
           Read More
         </ButtonGradient>
-      </div>
+      </div> 
     </div>
   );
 }
