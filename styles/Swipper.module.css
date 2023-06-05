@@ -1,0 +1,34 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiperSlide {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiperSlide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiperSlide {
+  width: 80%;
+}
+
+.swiperSlide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiperSlide:nth-child(3n) {
+  width: 40%;
+}

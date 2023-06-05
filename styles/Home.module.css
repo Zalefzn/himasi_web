@@ -1,0 +1,38 @@
+.hero {
+  background-image: url("../public/assets/images/home/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.cardBox {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 0px 40px 0px;
+  /* width: 343px;
+  height: 349px; */
+
+  @apply w-full lg:w-[343px];
+}
+
+.cardBox:hover {
+  background: linear-gradient(
+    65.29deg,
+    #8a2eff 5.23%,
+    rgba(183, 66, 255, 0) 184.41%
+  );
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3));
+  color: white;
+}
+
+.arrowButton:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.contact {
+  background-image: url("../public/assets/images/home/bgFooter.png");
+  background-size: cover;
+  background-position: center;
+  height: 890px;
+  width: 100%;
+}
